@@ -108,3 +108,10 @@ buttons.forEach(button => {
         
     });
 });
+const btn = document.querySelector(".button");
+const body1 = document.querySelector("body");
+btn.addEventListener("click", function() {
+  btn.classList.toggle("active");
+  body1.classList.toggle("dark");
+  
+});

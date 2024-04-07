@@ -1,3 +1,8 @@
+:root{
+    --mainColor: #f5f5f5;
+    --darkColor:#1d1e22;
+  }
+    
     body{font-family: "Arimo", sans-serif;}
 
     .container{
@@ -95,4 +100,42 @@
         
 
     }
-
+    .dark{
+        background-color:var(--darkColor)
+      }
+      
+      
+      
+      .button {
+        position: fixed; /* Change position to fixed */
+        top: 20px; /* Adjust top position */
+        right: 20px; /* Adjust right position */
+        border: 0;
+        width: 140px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: var(--darkColor);
+        cursor: pointer;
+      }
+      .button::before{
+        content:'';
+        border:0;
+        position: absolute;
+        width:46px;
+        height:46px;
+        border-radius:50%;
+        top:50%;
+        transform:translateY(-50%);
+        left:6px;
+        background-color: var(--mainColor);
+        transition: all 0.3s ease-in-out;
+      }
+      .button.active::before { 
+        left:86px;
+        background-color:var(--darkColor);
+        width:50px;
+        height:50px;
+      }
+      .button.active{
+        background-color:var(--mainColor);
+      }
