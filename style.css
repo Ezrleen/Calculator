@@ -1,92 +1,98 @@
-body{font-family: "Arimo", sans-serif;}
+    body{font-family: "Arimo", sans-serif;}
 
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: #aaaaaa;
-    width: 500px;
-    border: 2px solid black;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    border-radius: 12px;
-    font-family: inherit;
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: #aaaaaa;
+        width: 500px;
+        border: 2px solid black;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        border-radius: 12px;
+        font-family: inherit;
 
-    font-weight: 900;
-    
-    
-}
+        font-weight: 900;
+        
+        
+    }
 
-.headd{
-    border: 2px black solid;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    .headd{
+        border: 2px black solid;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
+        word-break: break-all;
+        
 
-}
-.headd>div{
-    font-family: inherit;
-    margin: 15px;
-    font-size: 50px;
-}
-.headd,.buttons{
-    background-color: #eeeeee;
-    width: 459px;
-    height: 100px;
-    border-radius: 12px;
-    margin: 10px auto 10px auto;
-
-
-}
-.buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: #aaaaaa;
-    gap: 10px;
-    
-    
-}
-.left,
-.right{
-    
-    width: 300px;
-    height: 457px;
-    margin-bottom: 5px;
-    border-radius: 12px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    font-size: smaller  ;    
+    }
+    .headd>div{
+        font-family: inherit;
+        margin: 15px;
+        font-size: 35px;
+        display: flex;
+        
+    }
+    .headd,.buttons{
+        background-color: #eeeeee;
+        width: 459px;
+        height: 100px;
+        border-radius: 12px;
+        margin: 10px auto 10px auto;
 
 
 
-}
-.right>.first.delete{
-    background-color: #aaaaff;
-}
-.left  > .first,
-.right>.first  {
-    width: 200px;
-    background-color: #ffaaaa;
-    font-size: 30px;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #aaaaaa;
+        gap: 10px;
+        
+        
+    }
+    .left,
+    .right{
+        
+        width: 300px;
+        height: 457px;
+        margin-bottom: 5px;
+        border-radius: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: smaller  ;    
 
-}
 
-.left>button,
-.right>button{
-    background-color: #eeeeee;
-    border: 2px black solid;
-    width: 80px;
-    height: 60px;
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: large;
-    font-family: inherit
-    
 
-    
+    }
+    .right>.first.delete{
+        background-color: #aaaaff;
+    }
+    .left  > .first,
+    .right>.first  {
+        width: 200px;
+        background-color: #ffaaaa;
+        font-size: 30px;
 
-}
+    }
+
+    .left>button,
+    .right>button{
+        background-color: #eeeeee;
+        border: 2px black solid;
+        width: 80px;
+        height: 60px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: large;
+        font-family: inherit
+        
+
+        
+
+    }
 
