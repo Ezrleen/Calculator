@@ -100,7 +100,7 @@ buttons.forEach(button => {
                 res.innerHTML=""
             }
             else {
-                if(res.innerHTML.length < 7)
+                if(res.innerHTML.length < 15)
                 res.innerHTML += e.target.innerHTML;
             }
         

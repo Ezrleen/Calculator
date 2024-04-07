@@ -28,7 +28,6 @@
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        
         word-break: break-all;
         
 
@@ -97,8 +96,12 @@
         font-family: inherit
         
 
-        
+    
 
+    }
+    button:hover{
+      background-color: rgb(209, 197, 197);
+      border-color: rgb(107, 150, 7);
     }
     .dark{
         background-color:var(--darkColor)
@@ -139,3 +142,10 @@
       .button.active{
         background-color:var(--mainColor);
       }
+      .flipped {
+        transform: scaleX(-1);
+        width: 250px;
+        position: fixed;
+        top: 0%;
+
+    }
